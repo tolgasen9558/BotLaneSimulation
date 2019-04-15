@@ -1,0 +1,18 @@
+** Animations **
+
+-> Melee minion attack animation
+-> Melee minion walk animation
+-> Ranged minion attack animation
+-> Ranged minion walk animation
+-> Minion dying animation (fall and fadeaway)
+
+** Particle Effects **
+
+-> Turret projectile
+-> Ranged minion projectile
+
+
+** AI **
+
+-> Waypoint system
+-> Target finding/choosing for minions

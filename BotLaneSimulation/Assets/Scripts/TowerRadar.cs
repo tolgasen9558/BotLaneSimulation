@@ -26,7 +26,6 @@ public class TowerRadar : MonoBehaviour {
         {
             _timeElapsedSinceLastCheck = 0;
             MinionInFocus = FindMinionInRange();
-            Debug.Log(MinionInFocus);
         }
 	}
 
