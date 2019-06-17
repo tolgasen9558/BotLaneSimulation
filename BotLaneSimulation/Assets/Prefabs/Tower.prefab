@@ -85,7 +85,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4319503908678604}
-  - component: {fileID: 114561180150401722}
+  - component: {fileID: 114629547275383018}
   m_Layer: 0
   m_Name: Radar
   m_TagString: Untagged
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 33030460565388606}
   - component: {fileID: 23888169050110396}
   m_Layer: 0
-  m_Name: Graphics-Top
+  m_Name: Fire Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -188,7 +188,7 @@ Transform:
   m_GameObject: {fileID: 1062294326107270}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 2, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.5, y: 2, z: 1.5}
   m_Children: []
   m_Father: {fileID: 4737014880655680}
   m_RootOrder: 0
@@ -331,7 +331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _teamID: 1
---- !u!114 &114561180150401722
+--- !u!114 &114629547275383018
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -359,4 +359,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TeamID: {fileID: 114117894800194796}
-  TowerRadar: {fileID: 114561180150401722}
+  TowerRadar: {fileID: 114629547275383018}
+  _fireHead: {fileID: 1985197763283102}

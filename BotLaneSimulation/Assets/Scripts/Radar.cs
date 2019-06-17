@@ -1,8 +1,17 @@
 using UnityEngine;
 
-public class TowerRadar : MonoBehaviour {
+public class Radar : MonoBehaviour {
 
     public Minion MinionInFocus { get; private set; }
+    public bool HasTarget { get
+        {
+            return MinionInFocus != null;
+        }
+        private set
+        {
+            value = MinionInFocus != null;
+        }
+    }
 
     [SerializeField]
     private TeamID _teamID;
@@ -27,7 +36,7 @@ public class TowerRadar : MonoBehaviour {
             _timeElapsedSinceLastCheck = 0;
             MinionInFocus = FindMinionInRange();
         }
-	}
+    }
 
     private Minion FindMinionInRange()
     {
@@ -42,5 +51,7 @@ public class TowerRadar : MonoBehaviour {
     
         return null;
     }
+
+    
 
 }
